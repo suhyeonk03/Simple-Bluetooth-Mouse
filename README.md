@@ -2,12 +2,7 @@
 ## Project Overview
 A simple Bluetooth mouse that uses the ESP32’s built-in ICM-42670-P sensor for inclination-based movement and performs a periodic left-click every 2 seconds
 
-<p align="center">
-  <img src="Arduino_Orange" alt="LCD and ESP board" width="600" height="500">
-</p>
-<p align="center">
-  <img src="Jupyter_Orange" alt="LCD and ESP board" width="600" height="500">
-</p>
+
 
 ## Used Libraries
 ## Hardware
