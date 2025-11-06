@@ -40,5 +40,5 @@ Connected to the ICM_42670_P built-in sensor via the I2C interface at address 0x
 Modified the hid_demo_task function to integrate the Phase 1 code and the esp_hidd_send_mouse_value function, which controls the mouse of a connected Bluetooth device (e.g., laptop) by passing arguments such as hid_conn_id, left-click condition, dx, and dy. The function also performs a left-click approximately every 2 seconds by setting the second argument of esp_hidd_send_mouse_value to 0x01 once, and then back to 0x00 for the remainder of the interval. This sequence triggers a left-click, enabling the device to perform basic actions such as opening or closing a tab.
 
 ## Credits
-Code files - © 2024 Espressif Systems (Shanghai) Co., Ltd. \n
+Code files - © 2024 Espressif Systems (Shanghai) Co., Ltd. <br />
 (Adapted from espressif/esp-idf/examples/bluetooth/bluedroid/ble/ble_hid_device_demo)
